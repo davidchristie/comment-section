@@ -1,8 +1,12 @@
 {
-  "name": "express-server",
+  "name": "comment-section",
   "version": "1.0.0",
   "description": "Skeletal express server",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidchristie/comment-section"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "tape tests/**/*.js | tap-spec"
@@ -15,6 +19,9 @@
     "tape": "^4.6.3"
   },
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "^1.15.2",
+    "date-format": "0.0.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0"
   }
 }
